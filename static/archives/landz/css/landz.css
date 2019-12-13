@@ -1,0 +1,234 @@
+/* https://github.com/narcis-radu/pure-dropdown-menu */
+
+.pure-menu ul li:hover > ul,
+.pure-menu ul li a:focus ~ ul {
+    display: block;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.pure-menu.pure-menu-horizontal > ul > li:hover > ul,
+.pure-menu.pure-menu-horizontal > ul > li a:focus ~ ul {
+    top: 100%;
+    left: 0;
+}
+
+.pure-menu.pure-menu-horizontal > ul > li:hover,
+.pure-menu.pure-menu-horizontal > ul > li:hover > ul > li:hover {
+	background: #eee;
+}
+
+.pure-menu.pure-menu-horizontal li .pure-menu-children {
+	border: 1px solid #eee;
+}
+
+/* IE 7 hack to display arrows */
+.pure-menu-can-have-children > .pure-menu-label {
+	*zoom: expression(
+		this.runtimeStyle.zoom = "1",
+		this.innerHTML += '<span class="pure-dropdown-arrow">\25B8</span>'
+		);
+}
+
+.pure-menu-horizontal > .pure-menu-children > .pure-menu-can-have-children > .pure-menu-label {
+	*zoom: expression(
+		this.runtimeStyle.zoom = "1",
+		this.innerHTML += '<span class="pure-dropdown-arrow">\25BE</span>'
+		);
+}
+
+.pure-dropdown-arrow {
+	padding-left: 10px;
+	margin-right: -20px;
+	margin-top: -1px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', sans-serif;
+}
+
+@media (max-width: 480px) {
+	.pure-menu.pure-menu-horizontal > ul {
+		display: block;
+	}
+
+	.pure-menu.pure-menu-horizontal > ul > li ul {
+		width: 100%;
+		top: 100%;
+		left: 0;
+	}
+
+	.pure-menu-can-have-children > .pure-menu-label:after {
+		content: '\25Be';
+	}
+}
+
+
+/*
+ * -- BASE STYLES --
+ */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url("../font/lato_regular.woff") format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url("../font/lato_bold.woff") format('woff');
+}
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #333333;
+}
+
+/*
+ * -- header --
+ */
+#z-header > ul > li a {
+  color: #fff;
+}
+
+#z-header > ul > li a:hover {
+  color: #000;
+}
+
+#z-header > ul > li > ul > li a {
+  color: #000;
+}
+
+#z-header {
+  text-align: center;
+  border-bottom: 0px;
+  background: #333333;
+}
+
+
+/*
+ * -- sections --
+ */
+.section-a {
+  margin: 0 auto;
+  background: #f0eeef;
+}
+
+.section-b {
+  margin: 0 auto;
+  background: rgba(232, 221, 203, 1);
+}
+
+.section-a p,
+.section-b p,
+.section-a li,
+.section-b li {
+  color: #000;
+  line-height: 1.5em;
+}
+
+.comment-box {
+  display: block;
+  vertical-align: middle;
+  font-family: 'Lato', sans-serif;
+  padding-left:  40px;
+  padding-right:  30px;
+}
+
+.comment-title {
+  display: block;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.comment-box li.comment {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 6px;
+}
+
+.image-box {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*
+img { max-width: 100%; height: auto; }
+*/
+
+
+/*
+* -- BANNER --
+*/
+#banner {
+  display: block;
+  width: auto;
+  vertical-align: middle;
+  height: auto;
+  text-align: center;
+  padding: 80px 5px 15px 20px;
+}
+
+#banner-head {
+  display: block;
+  font-size: 66px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #f2efe3;
+}
+
+#banner-line {
+  display: block;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 32px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-align: center;
+  font-family: inherit;
+  color: #f2efe3;
+}
+
+
+/*
+ * -- footer --
+ */
+#z-footer {
+  font-family: 'Lato', sans-serif;
+}
+
+#z-footer-socialicons {
+  text-align: center;
+  color: #FFF;
+  margin-top: 20px;
+}
+
+#z-footer-socialicons .z-footer-socialicons-a {
+  margin-right: 50px;
+}
+
+#z-footer-socialicons .z-footer-socialicons-a:link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#z-footer-socialicons .z-footer-socialicons-a:visited {
+  text-decoration: none;
+  color: #FFF;
+}

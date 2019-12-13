@@ -1,0 +1,23 @@
+# The URL the site will be built for
+base_url = "https://jinmingjian.xyz"
+
+compile_sass = true
+title = "Jin Mingjian"
+description = ""
+highlight_code = true
+generate_rss = true
+
+taxonomies = [
+    {name = "categories", rss = true},
+    {name = "tags", rss = true},
+]
+
+[extra]
+author = "Vincent"
+blog_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/about", name = "About"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/rss.xml", name = "Rss"},
+]

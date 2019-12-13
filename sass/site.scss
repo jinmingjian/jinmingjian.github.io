@@ -1,0 +1,50 @@
+@import "normalize";
+
+$theme-color-map: (
+  'Default': #c05b4d #f8f5ec,
+  'Mint Green': #16982B #f5f5f5,
+  'Cobalt Blue': #0047AB #f0f2f5,
+  'Hot Pink': #FF69B4 #f8f5f5,
+  'Dark Violet': #9932CC #f5f4fa
+);
+
+// TODO: allow to change that
+$main-colour: #363537;
+$secondary-colour: #f8f5ec;
+$third-color: #4183c4;
+$four-color: #8CD867;
+$five-color: #566064;
+$six-color: #8D99AE;
+$body-width: 800px;
+$mobile-navbar-height: 50px !default;
+$code-colour: #ED7D3A;
+$code-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+
+@mixin min-screen($min-width: $body-width) {
+   @media screen and (min-width: $min-width) {
+     @content;
+   }
+}
+
+@mixin max-screen($max-width: $body-width) {
+   @media screen and (max-width: $max-width) {
+     @content;
+   }
+}
+
+@import "animations";
+
+@import "base";
+@import "header";
+@import "main";
+@import "mobile";
+@import "slideout";
+@import "toc";
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 16px;
+}
