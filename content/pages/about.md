@@ -6,10 +6,8 @@ template = "about.html"
 <br/>
 <div>
 <p/>
-<a href="https://www.linkedin.com/in/jinmingjian/" title="Linkedin">
-                <i class="fab fa-linkedin fa-3x"></i>
-            </a>
-            <br/>
+<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="jinmingjian"><a class="LI-simple-link" href='https://cn.linkedin.com/in/jinmingjian?trk=profile-badge'>Jin Mingjian</a></div>
+<br/>
 </div>
 <br/>
 <font size="1">
