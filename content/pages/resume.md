@@ -9,7 +9,7 @@ template = "about.html"
 Chinese Citizen, Ph.D., jin.phd@gmail.com
 
 
-I am best known as [tonystarkjin/至尊宝](https://tianchi.aliyun.com/home/science/scienceDetail?userId=52240395) , a prize hunter in the series of Alibaba Tianchi Engineering Competitions. The main prizes can be seen in the [section of Awards](##Awards).
+I am best known as [tonystarkjin/至尊宝](https://tianchi.aliyun.com/home/science/scienceDetail?userId=52240395) , a grand prizes hunter in the series of Alibaba Tianchi Engineering Competitions. The main prizes can be seen in the [section of Awards](###Awards).
 
 
 This makes following records in the range of 2015 - 2020 Tianchi competition reasons:
@@ -19,6 +19,8 @@ This makes following records in the range of 2015 - 2020 Tianchi competition rea
 * **Person with the Most Total Money Rewards** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020)
 
 * **Highest rewards in all solo participants (one-person teams)** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020), and for the two successive 2018 to 2019 reasons.
+
+NOTE: It is better to check [the wonderful in the section of Talks and Writings](###Talks%20and%20Writings), not only the prizes. Sometimes, the prizes for all kinds of competitions are just like microbenchmarks. There are definitely kinds of problem which you may not realize if you are not an expert at these fields. What I really want to get is not the rank#1, but **how joyful to hack kinds of engineering topics from an individual‘s effort**.
 
 <div>
 <p align="center">
@@ -185,3 +187,6 @@ I am also trying to mix some from data science into the data engineering.
 
 
 ## Talks and Writings
+* [Final Presentation to Apache Flink Geek Challenge Competition 2019 (English)](https://jinmingjian.xyz/2019-11-27-flink-tpcds-competition/presentation_jinmingjian_flink_tpcds_competition.pdf)
+* [Addendum to First Polardb Competition Series #1 - Impact of File System on Fast IO (Chinese)](https://zhuanlan.zhihu.com/p/59212416)
+* [Final Presentation to First Alibaba Cloud PolarDB Database Performance Competition (English)](https://jinmingjian.xyz/2019-02-12-addendum-polardb-competition-1/presentation_jinmingjian_pdbrace2018.pdf)
