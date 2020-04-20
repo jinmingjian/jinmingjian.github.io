@@ -12,15 +12,15 @@ Chinese Citizen, Ph.D., jin.phd@gmail.com
 I am best known as [tonystarkjin/至尊宝](https://tianchi.aliyun.com/home/science/scienceDetail?userId=52240395) , a grand prizes hunter in the series of Alibaba Tianchi Engineering Competitions. The main prizes can be seen in the [section of Awards](###Awards).
 
 
-This makes following records in the range of 2015 - 2020 Tianchi competition reasons:
+This makes following records in the range of 2015 - 2020 Tianchi competition seasons:
 
 * **Person with the Most Total Prizes** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020): Two silver cups, three medals, four awarded titles, numerous gifts
 
 * **Person with the Most Total Money Rewards** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020)
 
-* **Highest rewards in all solo participants (one-person teams)** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020), and for the two successive 2018 to 2019 reasons.
+* **Highest rewards in all solo participants (one-person teams)** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020), and for the two successive 2018 to 2019 seasons.
 
-NOTE: It is better to check [the wonderful in the section of Talks and Writings](###Talks%20and%20Writings), not only the prizes. Sometimes, the prizes for all kinds of competitions are just like microbenchmarks. There are definitely kinds of problem which you may not realize if you are not an expert at these fields. What I really want to get is not the rank#1, but **how joyful to hack kinds of engineering topics from an individual‘s effort**.
+( It is better to check [the wonderful in the section of Talks and Writings](###Talks%20and%20Writings), not only the prizes. Prizes for all kinds of competitions are just like microbenchmarks for codes. What I really want to get is not the rank#1, but **how joyful to explore kinds of engineering topics from an individual‘s effort**. )
 
 <div>
 <p align="center">
@@ -55,16 +55,16 @@ I am a bigdata expert. I have modified to the Storm sources to achieve 2x messag
 
 I am contributing to kinds of open source systems and projects, including official PRs to Flink, Tensorflow(now LLVM) MLIR, Scala and Eclipse.
 
-I am used to be as an expert in the [Scala]((http://www.scala-lang.org/gsoc2010)), [Swift](https://github.com/jinmingjian/sde), [Eclipse](https://github.com/jinmingjian/seed), Matlab.
+I am used to be as an expert in the [Scala](http://www.scala-lang.org/gsoc2010), [Swift](https://github.com/jinmingjian/sde), [Eclipse](https://github.com/jinmingjian/seed), Matlab.
 
 I am a strong leader and have excellent communication skills. 
 
-Currently, I am interesting to reform scalable data intelligent infrastructures for massive data volume (from exabyte to zettabyte) in full spectrum, including the fields of storage design, query scheduling, query execution, query optimization, human - data interaction， under one modern distributed enviroment with fearless operation engineering.
+Currently, I am interesting to reform scalable data intelligent infrastructures for massive data volume (from exabyte to zettabyte) in full spectrum, including the fields of storage design, query scheduling, query execution, query optimization, human - data interaction, under one modern distributed enviroment with fearless operation engineering.
 
 I am also trying to mix some from data science into the data engineering.
 
 
-## Awards
+## Awards<a name="##Awards"></a>
 
 * **Silver Medalist** of Apache Flink Geek Challenge Competition (2019)
 
@@ -89,7 +89,7 @@ I am also trying to mix some from data science into the data engineering.
     * Wide-dimension OLAP cube analysis, with 50+ dimensions mix-in query
     * Lighting-fast query, with 28-column and 6-table join-aggregation queries for billion wide rows done within 10 seconds
     * Extreme data ingestion throughput, with max 3.8 million wide rows writes per second observed
-    * High concurrency, with 8000+ queries per hours
+    * High concurrency, with max 8000+ queries per hours
     * 10x cost-effective compared to last generation platform, done with 7-node Dell commodity cluster
     * Highly stable, with zero downtime and zero production fault in its first two years
   + Data Middleware Platform
@@ -181,12 +181,14 @@ I am also trying to mix some from data science into the data engineering.
 
 
 ## Education
+
 * **Doctor**, Institute of Electrical Engineering, Chinese Academy of Sciences, Electrical Engineering, September 2004 – 2010
 * **Master**, Institute of Electrical Engineering, Chinese Academy of Sciences, Electrical Engineering, September 2001 – 2004
 * **Bachelor**, Hua Zhong University of Science and Technology, Electrical Engineering,  September 1997 – 2001
 
 
-## Talks and Writings
+## Talks and Writings<a name="##Talks and Writings"></a>
+
 * [Final Presentation to Apache Flink Geek Challenge Competition 2019 (English)](https://jinmingjian.xyz/2019-11-27-flink-tpcds-competition/presentation_jinmingjian_flink_tpcds_competition.pdf)
 * [Addendum to First Polardb Competition Series #1 - Impact of File System on Fast IO (Chinese)](https://zhuanlan.zhihu.com/p/59212416)
 * [Final Presentation to First Alibaba Cloud PolarDB Database Performance Competition (English)](https://jinmingjian.xyz/2019-02-12-addendum-polardb-competition-1/presentation_jinmingjian_pdbrace2018.pdf)
