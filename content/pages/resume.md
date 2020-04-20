@@ -20,7 +20,7 @@ This makes following records in the range of 2015 - 2020 Tianchi competition sea
 
 * **Highest rewards in all solo participants (one-person teams)** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020), and for the two successive 2018 to 2019 seasons.
 
-( It is better to check [the wonderful in the section of Talks and Writings](###Talks%20and%20Writings), not only the prizes. Prizes for all kinds of competitions are just like microbenchmarks for codes. What I really want to get is not the rank#1, but **how joyful to explore kinds of engineering topics from an individual‘s effort**. )
+( It is better to check [the wonderful in the section of Talks and Writings](###Talks%20and%20Writings), not only the prizes. What I really want to get is not the rank#1, but **how joyful to explore kinds of engineering topics from an individual‘s effort**. )
 
 <div>
 <p align="center">
@@ -51,7 +51,7 @@ Awarded By Manager of Alibaba Cloud Database Division (PolarDB 2018)
 
 I am the founder of open-source high-performance foundationware, [Landz](http://jinmingjian.xyz/archives/landz/home.html). Landz, which is the first high-performance Java 8 ready stack in 2013, beats Netty 30% more in third-part benchmark with its own vectorizated http engine via original concise and composable library layers. 
 
-I am a bigdata expert. I have modified to the Storm sources to achieve 2x message throughput. I have re-implemented the Flink parquet file reader with native arrow based vectorized reader to reach 4x speed-up than presto-parquet reader and 2x speed-up than Flink reader (in 1.19). And I have hacked the Cassandra client driver to get multi-core scale-up fairness for massive client writes. And futhermore, I have successfully constructed serveral dedicated realtime data clusters and warehouses with 10x cost-effective than traditonal open-source bigdata solutions (a.k.a., SQL-on-Hadoop, like Impala, Hive, HBase, Presto...). Yes, I am in finding the road to next-generation big data analysis.
+I am a bigdata expert. I have modified to the Storm sources to achieve 2x message throughput. I have re-implemented the Flink parquet file reader with native arrow based vectorized reader to reach 4x speed-up than presto-parquet reader and 2x speed-up than Flink reader (in 1.19). And I have hacked the Cassandra client driver to get multi-core scale-up fairness for massive client writes. And futhermore, I have successfully constructed serveral dedicated realtime data clusters and warehouses with 10x cost-effective than traditonal open-source bigdata solutions (a.k.a., SQL-on-Hadoop, like Impala, Hive, HBase, Presto...). Yes, I am in walking on the road to next-generation big data intelligence.
 
 I am contributing to kinds of open source systems and projects, including official PRs to Flink, Tensorflow(now LLVM) MLIR, Scala and Eclipse.
 
@@ -59,9 +59,9 @@ I am used to be as an expert in the [Scala](http://www.scala-lang.org/gsoc2010),
 
 I am a strong leader and have excellent communication skills. 
 
-Currently, I am interesting to reform scalable data intelligent infrastructures for massive data volume (from exabyte to zettabyte) in full spectrum, including the fields of storage design, query scheduling, query execution, query optimization, human - data interaction, under one modern distributed enviroment with fearless operation engineering.
+Currently, I am focusing on reforming scalable data intelligent infrastructures for massive data volume (from exabyte to zettabyte), in full spectrum (including the fields of storage design, query scheduling, query execution, query optimization, human - data interaction), under one modern distributed enviroment with fearless operation engineering.
 
-I am also trying to mix some from data science into the data engineering.
+I also enjoy mixing some data science into the data engineering.
 
 
 ## Awards<a name="##Awards"></a>
