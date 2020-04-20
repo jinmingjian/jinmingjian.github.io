@@ -59,7 +59,7 @@ I am used to be as an expert in the [Scala](http://www.scala-lang.org/gsoc2010),
 
 I am a strong leader and have excellent communication skills. 
 
-Currently, I am focusing on reforming scalable data intelligent infrastructures for massive data volume (from exabyte to zettabyte), in full spectrum (including the fields of storage design, query scheduling, query execution, query optimization, human - data interaction), under one modern distributed enviroment with fearless operation engineering.
+I am focusing on reforming scalable data intelligent infrastructures for massive data volume (from exabyte to zettabyte), in full spectrum (including the fields of storage design, query scheduling, query execution, query optimization, human - data interaction), under one modern distributed enviroment with fearless operation engineering.
 
 I also enjoy mixing some data science into the data engineering.
 
