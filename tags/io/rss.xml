@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jin Mingjian</title>
+        <link>https://jinmingjian.xyz</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://jinmingjian.xyz/tags/io/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Tue, 12 Feb 2019 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Addendum to First Polardb Competition Series #1 - Impact of File System on Fast IO</title>
+                <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+                <link>https://jinmingjian.xyz/2019-02-12-addendum-polardb-competition-1/</link>
+                <guid>https://jinmingjian.xyz/2019-02-12-addendum-polardb-competition-1/</guid>
+                <description>&lt;p&gt;This is the addendum series to my first polardb competition journey, written in Chinese.&lt;&#x2F;p&gt;
+&lt;p&gt;You can read &lt;a href=&quot;https:&#x2F;&#x2F;jinmingjian.xyz&#x2F;2019-02-12-addendum-polardb-competition-1&#x2F;presentation_jinmingjian_pdbrace2018.pdf&quot;&gt;the presentation for this competition&lt;&#x2F;a&gt; to get further more.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

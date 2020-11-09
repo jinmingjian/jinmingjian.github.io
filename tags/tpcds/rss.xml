@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jin Mingjian</title>
+        <link>https://jinmingjian.xyz</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://jinmingjian.xyz/tags/tpcds/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Presentation for Tianchi Apache Flink Competition - TPC-DS Performance Optimization</title>
+                <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+                <link>https://jinmingjian.xyz/2019-11-27-flink-tpcds-competition/</link>
+                <guid>https://jinmingjian.xyz/2019-11-27-flink-tpcds-competition/</guid>
+                <description>&lt;p&gt;This is the presentation for Tianchi Apache Flink Competition - TPC-DS Performance Optimization.&lt;&#x2F;p&gt;
+&lt;p&gt;You can read &lt;a href=&quot;https:&#x2F;&#x2F;jinmingjian.xyz&#x2F;2019-11-27-flink-tpcds-competition&#x2F;presentation_jinmingjian_flink_tpcds_competition.pdf&quot;&gt;the presentation&lt;&#x2F;a&gt; to get further more.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

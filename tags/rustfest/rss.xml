@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jin Mingjian</title>
+        <link>https://jinmingjian.xyz</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://jinmingjian.xyz/tags/rustfest/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>RustFest Global 2020: Architect a High-performance SQL Query Engine in Rust</title>
+                <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+                <link>https://jinmingjian.xyz/2020-11-08-rustfest2020/</link>
+                <guid>https://jinmingjian.xyz/2020-11-08-rustfest2020/</guid>
+                <description>&lt;p&gt;I have presented a talk &lt;a href=&quot;https:&#x2F;&#x2F;rustfest.global&#x2F;session&#x2F;18-architect-a-high-performance-sql-query-engine-in-rust&#x2F;&quot;&gt;&amp;quot;Architect a High-performance SQL Query Engine in Rust&amp;quot; in the RustFest Global 2020&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;You can read the presentation in &lt;a href=&quot;https:&#x2F;&#x2F;tensorbase.io&#x2F;2020&#x2F;11&#x2F;08&#x2F;rustfest2020.html&quot;&gt;the blog of TensorBase&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

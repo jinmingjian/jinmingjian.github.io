@@ -1,0 +1,59 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jin Mingjian</title>
+        <link>https://jinmingjian.xyz</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://jinmingjian.xyz/categories/2017/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Wed, 11 Jan 2017 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Get Started with Swift Development Environment</title>
+                <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
+                <link>https://jinmingjian.xyz/2017-01-11-get-started-sde/</link>
+                <guid>https://jinmingjian.xyz/2017-01-11-get-started-sde/</guid>
+                <description>&lt;p&gt;A hands-on introduction for &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jinmingjian&#x2F;sde&quot;&gt;SDE&lt;&#x2F;a&gt; 1.0 release.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;quick-preview&quot;&gt;Quick Preview&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;jinmingjian.xyz&#x2F;2017-01-11-get-started-sde&#x2F;preview.gif&quot; alt=&quot;preview&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;explanation&quot;&gt;Explanation&lt;&#x2F;h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You can start coding with the &lt;strong&gt;empty folder&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;First, as I mentioned in the project, the current design and implementations are &lt;strong&gt;convention-based&lt;&#x2F;strong&gt;. Basically we follow the SPM convention. So, you should set up conventions early and as possible to help tools to understand all you want.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;write your &lt;strong&gt;Pacakge.swift&lt;&#x2F;strong&gt; to config the whole project, like dependencies and layouts if have.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Start main.swift or some other sources(main.swift is the convention for the executable product).
+When tpying with &#x27;.&#x27;, &#x27;:&#x27;, &#x27;(&#x27;, you&#x27;ll get &lt;strong&gt;code suggestions&lt;&#x2F;strong&gt;. Because it is found in many other cases the sourcekit like to give useless suggestion or nothing. But you can trigger suggestion by shortcut anytime, like &amp;quot;do&amp;quot; for &amp;quot;donothing()&amp;quot; shown in the preview.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Not only the single source file, SDE supports to provide helps in the &lt;strong&gt;project-wide sources&lt;&#x2F;strong&gt;, like click a symbol to go to its declartion in another file.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;To make editor to &lt;strong&gt;show diagnostics&lt;&#x2F;strong&gt; for your sources, you need to build the project. This may be slow when first time. I guess you are still OK, because you skip the boring configure time like done in IDEA or Eclipse for JAVA or others:)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;SDE will give you an &lt;strong&gt;indicator for building&lt;&#x2F;strong&gt; in the left of status bar. You can watch the stdout of building in the output console named &amp;quot;SPM&amp;quot;(or tell me if you have a better name for this console?). If the building failed, you got an red indicator.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;By default, it will fire a &lt;strong&gt;build when every save&lt;&#x2F;strong&gt;. Because &amp;quot;save&amp;quot;, as a convention, can help SPM and then tools understand the latest of your project. This is commonly quick and done in background process. But you can disable this behavior. And SDE also provides a shortcut &#x27;Alt+B&#x27; for trigging a build by manual.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Also note, you can &lt;strong&gt;format&lt;&#x2F;strong&gt; the whole document or selection:)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Debugging&lt;&#x2F;strong&gt; is done as your expection. However, but SDE only support the variables and call stack view. Soon, I will add the expression evaluation. Sometimes, you may meet &amp;quot;can not read ....&amp;quot; when Debugging. This may be the bug of lldb at linux. I continue to investigate this problem and its solution to help your futher.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;There is a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jinmingjian&#x2F;sde-demos&quot;&gt;example demo project&lt;&#x2F;a&gt; if you just want to do a quick experiment.&lt;&#x2F;p&gt;
+&lt;p&gt;(NOTE: sorry, the development of SDE project has been discontinued because the author can not foresee a well formed ecosystem in the Swift backend side. But all sources are there for who&#x27;s interests.)&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
