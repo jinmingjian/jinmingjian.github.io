@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://jinmingjian.xyz"
+base_url = "https://jinmingjian.info"
 
 compile_sass = true
 title = "Jin Mingjian"
