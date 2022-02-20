@@ -82,6 +82,8 @@ I also enjoy mixing some data science into the data engineering.
     + First make "copy-free, lock-free, async-free, dyn-free" happened in an open-source DBMS's critical path.
     + First DBMS running on the real-world RISC-V hardware.
     + First top-performance whole-lifecycle JIT SQL query engine. (Not completely open sourced, but the initial prototype was released in the network which you can try. And you can get more ideas from blogs, presentations and videos.) 
+  
+  [**Join Us!**](https://tensorbase.io/joinus/)
 
 * **Manager of Data Department**
 
