@@ -19,7 +19,7 @@ I makes following records in the range of 2015 - 2020 Tianchi competition season
 
 * **Highest rewards in all solo participants (one-person teams)** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020)
 
-* **Most universal optimizations done** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020). YMMV, check [presentations in "Talks and Writings"](###Talks%20and%20Writings) for your own idea.
+* **Most universal optimizations done** in the history of Alibaba Tianchi Engineering Competitions (2015 - 2020). YMMV, check [presentations in "Talks and Writings"](#talks) for your own idea.
 
 <div>
 <p align="center">
@@ -74,15 +74,14 @@ I also enjoy mixing some data science into the data engineering.
 
   **TensorBase** is a modern open source engineering effort for building a high performance and cost-effective bigdata warehouse.
 
- the world's first of TensorBase:
-
-+ The world's first ClickHouse compatible open-source implementation.
-+ 2x faster write throughput than that of ClickHouse (based on our bug fixed Rust client, you can get ~1.7x speedup by our another simple concurrent script here).
-+ Faster query speed in the simple aggregation than that of ClickHouse(benchmarked against ClickHouse 2021.6).
-+ First no-LSM, write and read optimized storage layer proposed.
-+ First make "copy-free, lock-free, async-free, dyn-free" happened in an open-source DBMS's critical path.
-+ First DBMS running on the real-world RISC-V hardware.
-+ First top-performance whole-lifecycle JIT SQL query engine. (Not completely open sourced, but the initial prototype was released in the network which you can try. And you can get more ideas from blogs, presentations and videos.) 
+  * The `world's first` of TensorBase:
+    + The world's first ClickHouse compatible open-source implementation.
+    + 2x faster write throughput than that of ClickHouse (based on our bug fixed Rust client, you can get ~1.7x speedup by our another simple concurrent script here).
+    + Faster query speed in the simple aggregation than that of ClickHouse(benchmarked against ClickHouse 2021.6).
+    + First no-LSM, write and read optimized storage layer proposed.
+    + First make "copy-free, lock-free, async-free, dyn-free" happened in an open-source DBMS's critical path.
+    + First DBMS running on the real-world RISC-V hardware.
+    + First top-performance whole-lifecycle JIT SQL query engine. (Not completely open sourced, but the initial prototype was released in the network which you can try. And you can get more ideas from blogs, presentations and videos.) 
 
 * **Manager of Data Department**
 
@@ -136,7 +135,7 @@ I also enjoy mixing some data science into the data engineering.
 * **Bachelor**, Huazhong University of Science and Technology, Electrical Engineering, September 1997 – 2001
 
 
-## Talks and Writings<a name="##Talks and Writings"></a>
+## Talks and Writings {#talks}
 
 * [Architect a High-performance SQL Query Engine in Rust](https://rustfest.global/session/18-architect-a-high-performance-sql-query-engine-in-rust/), RustFest Global 2020
 * [Final Presentation to Apache Flink Geek Challenge Competition 2019 (English)](https://jinmingjian.xyz/2019-11-27-flink-tpcds-competition/presentation_jinmingjian_flink_tpcds_competition.pdf)

@@ -9,7 +9,6 @@ git config user.name jinmingjian
 git add -A .
 git commit -m"pub"
 git remote add origin git@github.com:jinmingjian/jinmingjian.github.io.git
-git push --force -u origin master
-cd ..
+git push --force -u origin main
 rm -rf ./public
 echo "--> pub done"
